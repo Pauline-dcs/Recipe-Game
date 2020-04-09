@@ -46,10 +46,6 @@ header h1 {
     font-size: 20px;
     margin-top: 30px;
         color: rgb(23, 62, 162);
-        text-shadow: -1px 0 white,
-        0 1px rgb(245, 245, 245),
-        1px 0 white,
-        0 -1px rgb(255, 255, 255);
 }
 
 .icon-buttons{
