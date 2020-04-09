@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+   <script type="module" src="./main.js"></script>
+   
+    <title> Recipe 🌰</title>
+    <!--find name -->
+</head>
+<body>
+  
+
+    <header> 
+          <img id="nut-header" src="./Icones/nut2.svg" alt="hazelnut">
+        <h1 class="title" id="title-recipe">Let's bake!</h1>
+        <div id="home-squirrel">
+       <a href="index.html"> <img id="my-squirrel" src="./Icones/home.png" alt="home button"></a>
+      </div>
+  </header>
+
+  <div id="ready-p">
+    <p>Ready to bake?<span id="extra"> It is going to be yummy 😋👩🏼‍🍳👨🏽‍🍳</span> </p>
+</div>
+
+<div id="container">
+<article id="ingredients">
+    <h4>MY INGREDIENTS</h4>
+    <div id="list-ingredient"> </div>
+</article>
+
+
+<section id="bowl-box">
+
+
+<div class="bowl">
+    <article id=allIcons>
+        <img class="img" style='visibility: hidden;' src=' ./Icones/egg.svg' alt='eggs'>
+        <img class="img" style='visibility: hidden;' src='./Icones/butter.svg' alt='butter'>
+        <img class="img" style='visibility: hidden;' src='./Icones/flour.svg' alt='flour'>
+        <img class="img" style='visibility: hidden;' src='./Icones/vanilla.svg' alt='vanilla'>
+        <img class="img" style='visibility: hidden;' src='./Icones/sugar.svg' alt="sugar">
+        <img class="img" style='visibility: hidden;' src='./Icones/nut.svg' alt='nut'>
+        <img class="img" style='visibility: hidden;' src='./Icones/milk.svg' alt='milk'>
+        <img class="img" style='visibility: hidden;' src='./Icones/snack.svg' alt='chocolate'>
+        <img class="img" style='visibility: hidden;' src='./Icones/baking-powder.svg' alt='bakingPowder'>
+        
+    </article>
+</div>
+<div id=icon-oven>
+    <img id="oven" src="./Icones/oven.svg" alt="oven">
+</div>
+
+</section>
+<article id="instructions">
+    <h4>THE RECIPE</h4>
+    <ol></ol>
+</article>
+
+
+
+<span id="error-message">You need to follow the recipe in order 🙃</span>
+
+<div id="myModal" class="modal">
+
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Bravo, you are a real chef 👩🏼‍🍳🧑🏾‍🍳</p>
+        <button data-page="index" id="home" type="text"><a href="index.html" >Try other recipes </a>
+        </button>
+        
+    </div>
+
+</div>
+
+
+</div>
+</div>
+
+</body>
+</html>

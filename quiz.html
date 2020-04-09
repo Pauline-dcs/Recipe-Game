@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./quiz.css">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+     <script type="module" src="./quiz.js"></script>
+  
+    <title>Let's play 🍪</title>
+    <!--find name -->
+</head>
+<body>
+<header>
+<h1>Let's play!</h1>
+<p class="title"></p>
+</header>
+
+<div id="text-intro">
+<p>Before to start baking, we need to select all the necessary ingredients 🌰
+ <br>
+ Can you guess which ingredients we need to bake the recipe?
+<br>
+ <br>
+  <br>
+Select them 👩🏼‍🍳👨🏽‍🍳</p>
+
+</div>
+
+<section class='icon-buttons'>
+
+<img class="img" id="sugar" src="./Icones/sugar.svg" alt="sugar">
+<img class ="img" id='eggs' src='./Icones/egg.svg' alt='eggs'>
+<img class="img" id='nut' src='./Icones/nut.svg' alt='nut'>
+<img class="img" id='chocolate' src='./Icones/snack.svg' alt='chocolate'>
+<img class="img" id='flour' src='./Icones/flour.svg' alt='flour'>
+<img class="img" id='kiwi' src='./Icones/kiwi.svg' alt='kiwi'>
+<img class="img" id="milk" src="./Icones/milk.svg" alt="milk">
+<img class="img" id='butter' src='./Icones/butter.svg' alt='butter'>
+<img class="img" id='vanilla' src='./Icones/vanilla.svg' alt='vanilla'>
+
+
+</section>
+
+ <span id="hintText">The correct ingredients are selected in green</span>
+
+<div id="footer-buttons">
+   
+    <button id="hintBtn" class="action-buttons" type="text">Hint</button>
+    <button data-page="main" id="cook-btn" class="button" type="text">Let's bake</button>
+</div>
+
+</body>
+
+</html>

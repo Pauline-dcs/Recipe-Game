@@ -1,0 +1,447 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(70, 218, 255);
+    font-family: 'Ubuntu', sans-serif;
+     background-image: url("./Icones/background.png");
+     background-repeat: repeat-y;
+     background-position-x: right;
+     background-size: 20%;
+}
+
+
+#head-box {
+position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  
+   width: 100%;
+   height: 170px;
+   color:white;
+}
+
+
+#nut-header{
+width: 120px;
+height: 120px;
+justify-self: flex-start;
+margin-left: 70px;
+transform: rotate(-20deg);
+}
+
+#nut-header:hover {
+    transform: rotate(20deg);
+}
+
+#head-box h1{
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    margin-left: -98px;
+    padding: 20px;
+    border: 4px solid rgb(255, 168, 18);
+     border-radius: 5px 20px 5px;
+     background-color: rgba(15, 65, 193, 0.728);
+}
+
+#p-info{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(23, 62, 162);
+    text-shadow: -1px 0 white,
+    0 1px white,
+    1px 0 white,
+    0 -1px white;
+    }
+
+
+.container{
+    display: flex;
+     width: 100%;
+     height: 100%;
+     
+    justify-content: space-between;
+    
+}
+
+#textAndButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: 150px;
+}
+
+#article-cookie{
+display: flex;
+align-items: center;
+ 
+}
+
+ #article-cupcake{
+     display: flex;
+     align-items: center;  
+ }
+
+ #article-brownie{
+ display: flex;
+ align-items: center;
+ }
+
+/* Icones */
+
+#icon-cookie{
+    width: 80px;
+    height: 80px;
+    margin-right: 50px;
+}
+
+#icon-cookie:hover{
+    transform: rotate(20deg);
+}
+
+#icon-cupcake{
+    width: 80px;
+    height: 80px;
+    margin-right: 50px;
+}
+
+#icon-cupcake:hover {
+     transform: rotate(-20deg);
+}
+
+#icon-nut{
+       width: 80px;
+       height: 80px;
+       margin-right: 50px;
+}
+
+#icon-nut:hover {
+    transform: rotate(20deg);
+}
+
+
+/* Buttons */
+
+/* Button cookie */
+
+.button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(255, 192, 34);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    background-color: #f5bd15
+}
+
+.button:active {
+    background-color: #eab32a;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+
+/* squirrel */
+
+
+
+.squirrel {
+    position: relative;
+    width: 166px;
+    height: 214px;
+    margin-top: 260px;
+    margin-left: 160px
+}
+
+.squirrel .skin {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 166px;
+    height: 214px;
+    background: #F99C3C;
+    border-radius: 0 110px 0 0
+}
+
+.squirrel .ear {
+    position: absolute;
+    top: -50px;
+    width: 25px;
+    height: 50px;
+    background: #F99C3C
+}
+
+.squirrel .ear.left {
+    left: -25px;
+    border-radius: 25px 0 0 25px
+}
+
+.squirrel .ear.right {
+    left: 80px;
+    border-radius: 0 25px 25px 0
+}
+
+.squirrel .eye {
+    position: absolute;
+    top: 50px;
+    width: 50px;
+    height: 50px;
+    background: #FEFEFE;
+    border-radius: 50px
+}
+
+.squirrel .eye.left {
+    left: 25px
+}
+
+.squirrel .eye.right {
+    right: 25px
+}
+
+.squirrel .eye span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 26px;
+    height: 26px;
+    margin-top: -13px;
+    margin-left: -13px;
+    background: #3A2012;
+    border-radius: 26px
+}
+
+.squirrel .belly {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100px;
+    height: 50px;
+    margin-left: -50px;
+    background: #FABA71;
+    border-radius: 50px 50px 0 0
+}
+
+.squirrel .nose {
+    position: absolute;
+    top: 103px;
+    left: 50%;
+    width: 12px;
+    height: 6px;
+    margin-left: -6px;
+    background: #3A2012;
+    border-radius: 0 0 12px 12px
+}
+
+.squirrel .mouth {
+    position: absolute;
+    top: 116px;
+    left: 50%;
+    width: 50px;
+    height: 25px;
+    margin-left: -25px;
+    background: #3A2012;
+    border-radius: 0 0 25px 25px
+}
+
+.squirrel .mouth .tooth {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 26px;
+    height: 13px;
+    margin-left: -13px;
+    background: #FEFEFE;
+    border-radius: 0 0 13px 13px
+}
+
+.squirrel .leg {
+    position: absolute;
+    bottom: 0;
+    width: 25px;
+    height: 12px;
+    background: #3A2012;
+    border-radius: 25px 25px 0 0
+}
+
+.squirrel .leg.left {
+    left: 25px
+}
+
+.squirrel .leg.right {
+    right: 25px
+}
+
+.squirrel .tail {
+    position: absolute;
+    bottom: 0;
+    left: -111px;
+    width: 166px;
+    height: 310px
+}
+
+.squirrel .tail .square {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 166px;
+    height: 310px;
+    background: #D67B32;
+    border-radius: 0 0 0 110px
+}
+
+.squirrel .tail .square .sh {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 66px;
+    height: 310px;
+    background: #D67B32;
+    -moz-box-shadow: inset -60px 0 60px -60px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: inset -60px 0 60px -60px rgba(0, 0, 0, 0.2);
+    box-shadow: inset -60px 0 60px -60px rgba(0, 0, 0, 0.2)
+}
+
+.squirrel .tail .circle {
+    position: absolute;
+    top: -150px;
+    left: -138px;
+    width: 304px;
+    height: 304px;
+    background: #D67B32;
+    border-radius: 152px;
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+    -moz-box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.2)
+}
+
+.squirrel .tail .circle::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 152px;
+    height: 152px;
+    background: #AD6326;
+    border-radius: 0 0 152px 0
+}
+
+.squirrel .nut {
+    position: absolute;
+    bottom: 5px;
+    right: -55px;
+    width: 25px;
+    height: 30px;
+    background: #D47B33;
+    border-radius: 25px 0 0 25px
+}
+
+.squirrel .nut .hood {
+    position: absolute;
+    bottom: -5px;
+    right: -20px;
+    width: 20px;
+    height: 40px;
+    background: #3A2012;
+    border-radius: 0 25px 25px 0
+}
+
+.squirrel .nut .hood::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -14px;
+    width: 15px;
+    height: 8px;
+    margin-top: -3px;
+    background: #3A2012;
+    border-radius: 0 0 15px 15px
+}
+
+.squirrel .eye span {
+    -webkit-animation: animation 10s infinite ease-in-out;
+    animation: animation 10s infinite ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out
+}
+
+.squirrel:hover .eye span {
+    position: absolute;
+    top: 65%;
+    left: 65%
+}
+
+@-webkit-keyframes animation {
+
+    0%,
+    4%,
+    6%,
+    49%,
+    51%,
+    53%,
+    100% {
+        -webkit-transform: rotateX(0deg);
+        transform: rotateX(0deg)
+    }
+
+    5%,
+    50%,
+    52% {
+        -webkit-transform: rotateX(90deg);
+        transform: rotateX(90deg)
+    }
+}
+
+@keyframes animation {
+
+    0%,
+    4%,
+    6%,
+    49%,
+    51%,
+    53%,
+    100% {
+        -webkit-transform: rotateX(0deg);
+        transform: rotateX(0deg)
+    }
+
+    5%,
+    50%,
+    52% {
+        -webkit-transform: rotateX(90deg);
+        transform: rotateX(90deg)
+    }
+}
+
+footer p{
+    font-size: 17px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: orange;
+}
