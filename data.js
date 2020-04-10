@@ -30,7 +30,7 @@ let recipes = {
         nameId: "chocolate"
     },
       {
-          text: "7.Finally add the baking powder and click on the bowl :)",
+          text: "7.Finally add the baking powder :)",
           nameId: "bakingPowder"
       }, 
    
@@ -74,7 +74,7 @@ let recipes = {
                  nameId: "milk"
                  },
                 {
-                    text: "7.Add the chocolate in little pieces and click on the bowl!  ",
+                    text: "7.Add the chocolate in little pieces !  ",
                     nameId: "chocolate"
                 }, 
                {
@@ -119,7 +119,7 @@ brownie: {
                 nameId: "vanilla"
             },
             {
-                text: "7. Don't forget the nuts and click on the bowl!",
+                text: "7. Don't forget the nuts!",
                 nameId: "nut"
             },
             {
